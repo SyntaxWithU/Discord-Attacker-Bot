@@ -10,7 +10,7 @@ from discord.ext import commands
 
 #.............CORE.............
 TOKEN = ''  # Paste your bot token
-PREFIX = '' # Write one prefix for bot
+PREFIX = '!' # Write one prefix for bot
 NAME = ''   # Write one name for servername, channelsname, rolename
 MESSAGE = '@everyone '  # Write one message for spamming
 
