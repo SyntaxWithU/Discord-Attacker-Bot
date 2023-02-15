@@ -5,6 +5,29 @@ this bot is advanced nuker bot for discord serevrs
 with discord.py and you can use that free!
 
 
+# Bot commands :
+
+Default prefix is set on ` ! `
+
+`!nuke` :
+    Delete all channels on targetet server and create one text channel for more commands
+
+`!cs `:
+    Spamming some channels with your written name
+
+`!rs` :
+    Spamming some roles with your written name
+
+`!ms` :
+    Ban all members
+
+`!ks` :
+    Kick all members
+
+`!sn` :
+    Change server name to your written name
+    
+
 
 # Bot options and features :
 
