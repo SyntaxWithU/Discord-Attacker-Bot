@@ -8,9 +8,9 @@ import discord
 from discord.ext import commands
 
 # .............CORE.............
-TOKEN = 'MTA0NzA5NTkzMjA3MzgwNzg4Mg.G42QfN.9S7V_AUz1q6SK529iKh3cpjQG7VSlj2s0sQjg4'  # Paste your bot token
+TOKEN = ''  # Paste your bot token
 PREFIX = '!'  # Write one prefix for bot
-NAME = 'POKO ON TOP'   # Write one name for servername, channelsname, rolename
+NAME = 'None'   # Write one name for servername, channelsname, rolename
 MESSAGE = '@everyone '  # Write one message for spamming
 
 
