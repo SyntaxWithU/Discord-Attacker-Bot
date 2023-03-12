@@ -18,9 +18,12 @@ Default prefix is set on ` ! `
 `!rs` :
     Spamming some roles with your written name
 
-`!ms` :
+`!bs` :
     Ban all members
 
+`!ms` :
+    Spam your written text in all channels
+    
 `!ks` :
     Kick all members
 
