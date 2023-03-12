@@ -35,7 +35,7 @@ this bot can spam role, spam channel, change server name
 ban all members, kick all members, spamming a message just with commands!
 
 
-# Bot installion :
+# Bot installtion :
 
 `git clone https://github.com/Sepehrdn/Discord-Attacker-Bot`
 `cd Discord-Nuker`
