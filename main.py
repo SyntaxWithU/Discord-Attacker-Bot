@@ -1,6 +1,6 @@
 
-# Source By Sepehr
-# If you have question or problem send message on my discord `Sepehr#1266
+# Source By Syntax
+# If you have question or problem send message on my discord Syntax#6487
 
 
 # ............MODULES.............
