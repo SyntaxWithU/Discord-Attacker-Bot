@@ -1,6 +1,6 @@
 # Discord nuker bot with Discord.py!
 
-Hi I`m Sepehr 
+Hi I`m Syntax 
 this bot is advanced nuker bot for discord serevrs
 with discord.py and you can use that free!
 
@@ -47,7 +47,7 @@ ban all members, kick all members, spamming a message just with commands!
 
 # If you have question or problem :
 
-` Send message on discord for Sepehr#1266 `
+` Send message on discord for Syntax#6487 `
 
 
 
